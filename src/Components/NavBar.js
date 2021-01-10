@@ -10,14 +10,19 @@ const useStyles = makeStyles(
             position: 'fixed',
             minHeight: '100vh',
             justifyContent: 'space-evenly',
-            paddingLeft: '10px',
+            paddingLeft: '4vh',
             color: '#8fcb9b',
             maxWidth: '15vw',
-            fontFamily: 'MontSerrat'
+            fontFamily: 'MontSerrat',
+            borderLeft:'1vh solid #F6AE2D',
+            fontSize:'3vh'
+
         }
 
     }
 )
+
+
 const naVariants = {
     start: {},
     end: {transition: {staggerChildren: 0.5}},
